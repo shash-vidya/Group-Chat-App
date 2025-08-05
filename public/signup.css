@@ -1,60 +1,58 @@
+/* Global styles */
 body {
   font-family: Arial, sans-serif;
   background-color: #e0f7fa;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
   margin: 0;
+  padding: 0;
 }
 
-.signup-container {
+/* Signup card container */
+.card {
   background-color: #ffffff;
-  padding: 30px 40px;
   border-radius: 10px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px 40px;
   width: 100%;
   max-width: 400px;
 }
 
-.signup-container h2 {
+/* Heading style */
+.card h3 {
   text-align: center;
   margin-bottom: 20px;
   color: #00796b;
-}
-
-label {
-  display: block;
-  margin-top: 10px;
-  margin-bottom: 5px;
   font-weight: bold;
 }
 
-input {
-  width: 100%;
+/* Label and input styles */
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
   padding: 10px;
   margin-bottom: 15px;
-  border: 1px solid #ccc;
   border-radius: 5px;
+  border: 1px solid #ccc;
 }
 
-button {
-  width: 100%;
+/* Button style */
+.btn-primary {
   padding: 12px;
   background-color: #00796b;
-  color: white;
-  font-weight: bold;
   border: none;
+  font-weight: bold;
   border-radius: 5px;
-  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-button:hover {
+.btn-primary:hover {
   background-color: #004d40;
 }
 
+/* Message div */
 #message {
   margin-top: 15px;
   text-align: center;
-  color: red;
+  font-weight: bold;
 }
