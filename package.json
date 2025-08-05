@@ -1,0 +1,20 @@
+{
+  "name": "group-chat",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000S\u0000i\u0000g\u0000n\u0000-\u0000U\u0000p\u0000-\u0000F\u0000r\u0000o\u0000n\u0000t\u0000e\u0000n\u0000d\u0000-\u00001\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shash-vidya/Sign-Up-Frontend-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shash-vidya/Sign-Up-Frontend-1/issues"
+  },
+  "homepage": "https://github.com/shash-vidya/Sign-Up-Frontend-1#readme"
+}
